@@ -1,0 +1,188 @@
+
+/*-----------------------------------------------------------------------------------
+
+	Shortcodes: team.scss
+
+-----------------------------------------------------------------------------------*/
+.team {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1.375rem;
+
+	.team-name {
+		font-family: $heading-font;
+		font-size: 1.3125rem;
+		color: $primary-menu-second-font-color;
+		line-height: 1;
+		font-weight: 700;
+	}
+
+	.team-mark {
+		font-family: $body-font;
+		font-size: $h5-font-size;
+		color: $third-color;
+		line-height: 1;
+		font-weight: 400;
+		i {
+			margin-right: 0.422rem;
+			color: #ff7a22;
+		}
+	}
+
+	.team-phone {
+		font-family: $body-font;
+		font-size: $h5-font-size;
+		color: $primary-menu-second-font-color;
+		line-height: 1;
+		font-weight: 400;
+		margin-top: 1.172rem;
+	}
+
+	.team-info {
+		position: relative;
+
+		.team-details {
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			width: 7.97rem;
+			height: 2.63rem;
+			opacity: 0;
+			padding-top: 2.1rem;
+			background-color: #ffffff;
+			transition: all 0.3s ease-in-out;
+			text-align: center;
+			border-top-left-radius: 0.42rem;
+			border-bottom-right-radius: 0.42rem;
+
+			@media (max-width: 768px){
+				opacity: 1;
+			}
+			@media (max-width: 375px){
+				opacity: 1;
+			}
+		}
+
+		&:hover {
+			.team-details {
+				opacity: 1;
+			}
+		}
+
+		.social-item {
+			position: relative;
+			top: - 1.75rem;	
+			opacity: 1;
+			
+			li {
+				width: 1.99rem;
+				height: 1.97rem;
+			}
+
+			a {
+				font-size: 1.03rem;
+				font-family: $heading-font;
+				background-color: transparent;
+				color: $bg-primary;
+				line-height: 1.8125rem;
+				width: 1.8125rem;
+				height: 1.8125rem;		
+				vertical-align: middle;
+				text-align: center;
+				transition: all 0.3s ease-in-out;
+				
+				&:hover {
+					background-color: $theme-color;
+					color: $white;
+				}
+
+				i {
+					vertical-align: top;
+					line-height: 1.8125rem;
+				}
+			}
+		}
+
+	}
+}
+
+// .team {
+// 	display: flex;
+// 	justify-content: center;
+// 	position: relative;
+// 	margin-bottom: 1.375rem;
+
+// 	.team-info {
+// 		position: absolute;
+// 		right: 0;
+// 		bottom: 0;
+// 		width: 7.97rem;
+// 		height: 2.63rem;
+// 		opacity: 1;
+// 		padding-top: 2.1rem;
+// 		background-color: #ffffff;
+// 		font-family: $body-font;
+// 		transition: all 0.3s ease-in-out;
+// 		text-align: center;
+// 		border-top-left-radius: 0.42rem;
+// 		border-bottom-right-radius: 0.42rem;
+
+// 		@media (min-width: 992px){
+// 			opacity: 1;
+// 			//text-align: left;
+// 		}
+
+// 		/*.team-name {
+// 			font-size: $h4-font-size;
+// 			line-height: 1;
+// 			margin-bottom: 0.5rem;
+// 			font-weight: 400;
+// 		}
+
+// 		.team-detail {
+// 			font-size: $h5-font-size;
+// 			color: #d4c4b1;
+// 			line-height: 1;
+// 			margin-bottom: 0;
+// 			font-weight: 400;
+// 		}
+// 		*/
+// 		.social-item {
+// 			position: relative;
+// 			top: - 1.75rem;	
+// 			opacity: 1;
+// 				li {
+// 					width: 1.99rem;
+// 					height: 1.97rem;
+// 				}
+// 				a {
+// 					font-size: 1.03rem;
+// 					font-family: $heading-font;
+// 					background-color: transparent;
+// 					color: $bg-primary;
+// 					line-height: 1.8125rem;
+// 					width: 1.8125rem;
+// 					height: 1.8125rem;		
+// 					vertical-align: middle;
+// 					text-align: center;
+// 					transition: all 0.3s ease-in-out;
+					
+// 					&:hover {
+// 						background-color: $theme-color;
+// 						color: $white;
+// 					}
+		
+// 					i {
+// 						vertical-align: top;
+// 						line-height: 1.8125rem;
+// 					}
+// 				}	
+// 		}
+// 	}
+
+// 	&:hover {
+// 		.team-info {
+// 			opacity: 1;
+// 		}
+// 	}
+// }
