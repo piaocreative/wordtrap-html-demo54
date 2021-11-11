@@ -11,40 +11,14 @@
 
 .post {
 	position: relative;	
+	margin-bottom: 1.875rem;
 }
 
 .post-thumbnail {
-	margin-bottom: 3.5rem !important;
-	padding-left: 0 !important;
-	margin-left: 3.4rem;
-	text-align: justify !important;
-	@media (max-width: 992px) {
-		justify-content: center;
-		align-items: center;
-		display: flex;
-		margin-left: 0;
-		padding-right: 0;
-		padding-left: 0;
-		text-align: justify !important;
+	img {
+		width: 100%;
+		height: auto;
 	}
-	@media (max-width: 768px) {
-		justify-content: center;
-		align-items: center;
-		display: flex;
-		margin-left: 0;
-		padding-right: 0;
-		padding-left: 0;
-		text-align: justify !important;
-	}
-	@media (min-width: 375px) {
-		padding-left: 0.5rem !important;
-		padding-right: 0.5rem !important;
-	}
-}
-
-.post-content {
-	margin-bottom: 3.5rem !important;
-	padding-right: 0 !important;
 }
 
 .post-txt{
@@ -52,134 +26,25 @@
 	margin-left: 7.7%;
 	position: absolute;
 	top: 60%;
-	color: white !important;
-	@media (max-width: 768px) {
-		width: 100% !important;
-		top: 40% !important;
-		margin-left: 0% !important;
-
-	}
-	@media (max-width: 375px) {
-		width: 100% !important;
-		top: 20% !important;
-		margin-left: 0% !important;
-		padding-left: 1rem !important;
-		padding-right: 1rem !important;
-	}
-	P {
-		position: relative;
-		width: 80%;
-		@media (max-width: 768px) {
-			width: 100% !important;
-		}
-		@media (max-width: 375px) {
-			width: 100% !important;
-		}
-	}		
+	color: white;	
 }
 
 .entry-title {
-	font-family: $heading-font !important;
-	font-weight: 700 !important;
-	font-size: 1.75rem !important;
-	color: $primary-menu-second-font-color ;
-	margin-bottom: 1.03rem !important;
-	line-height: 1.25 !important;
-	text-align: justify !important;
-	@media (max-width: 992px) {
-		justify-content: center;
-		align-items: center;
-		display: flex;
-		margin-left: 0;
-		padding-right: 0;
-		padding-left: 0;
-		text-align: justify !important;
-	}
-	@media (max-width: 768px) {
-		justify-content: center;
-		align-items: center;
-		display: flex;
-		margin-left: 0;
-		padding-right: 0;
-		padding-left: 0;
-		text-align: justify !important;
-	}
-	@media (min-width: 375px) {
-		padding-left: 0.5rem !important;
-		padding-right: 0.5rem !important;
-	}
+	font-weight: 700;
+	font-size: 1.75rem;
+	margin-bottom: 1rem;
+	line-height: 1.25;
 }
 
 .entry-meta {
-	font-family: $body-font !important;
-	font-weight: 400 !important;
-	font-size: 0.875rem !important;
-	color: #acabab !important;
-	margin-top: 1.78rem !important;
-	margin-bottom: 1.03rem !important;
-	text-align: justify !important;
-	@media (max-width: 992px) {
-		justify-content: center;
-		align-items: center;
-		display: flex;
-		margin-left: 0;
-		padding-right: 0;
-		padding-left: 0;
-		text-align: justify !important;
-	}
-	@media (max-width: 768px) {
-		justify-content: center;
-		align-items: center;
-		display: flex;
-		margin-left: 0;
-		padding-right: 0;
-		padding-left: 0;
-		text-align: justify !important;
-	}
-	@media (min-width: 375px) {
-		padding-left: 0.5rem !important;
-		padding-right: 0.5rem !important;
-	}
+	font-size: 0.875rem;
+	color: #acabab;
+	margin-top: 1.78rem;
+	margin-bottom: 1rem;
 }
 
 .entry-content { 
-	font-family: $body-font !important;
-	font-weight: 400 !important;
-	font-size: 0.94rem !important;
-	color: $primary-menu-second-font-color !important;
-	line-height: 2 !important;
-	margin-bottom: 0 !important;
-	text-align: justify !important;
-	@media (max-width: 992px) {
-		justify-content: center;
-		align-items: center;
-		display: flex;
-		margin-left: 0;
-		padding-right: 0;
-		padding-left: 0;
-		text-align: justify !important;
-	}
-	@media (max-width: 768px) {
-		justify-content: center;
-		align-items: center;
-		display: flex;
-		margin-left: 0;
-		padding-right: 0;
-		padding-left: 0;
-		text-align: justify !important;
-	}
-	@media (min-width: 375px) {
-		padding-left: 0.5rem !important;
-		padding-right: 0.5rem !important;
-	}
-}
-
-.entry-link {
-	display: block;
-	color: $theme-color;
-	font-family: $body-font;
-	text-transform: uppercase;
-	font-size: $h6-font-size;
-	font-weight: 600;
-	line-height: $line-height-lg;
+	font-size: 0.9375rem;
+	line-height: 2;
+	margin-bottom: 0;
 }

@@ -14,22 +14,10 @@
 -----------------------------------------------------------------*/
 
 .heading-block {
-	margin-top: 1.25rem;
 	margin-bottom: 3.2rem;
-
-	@media (max-width: 375px) {
-		padding-left: 0.4rem !important;
-		padding-right: 0.4rem !important;
-	}
-
-	@include media-breakpoint-down(xl) {
-		text-align: center;
-	}
 
 	.title {		
 		display: block;
-		font-family: $heading-font;
-		font-size: $h2-font-size;
 		font-weight: 700;
 		line-height: 1;
 	}

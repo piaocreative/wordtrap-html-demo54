@@ -31,3 +31,10 @@ textarea {
         background-size: 100%;
     }
 }
+
+.form-floating {
+    .form-control {
+        padding: 1.5rem;
+        border-radius: 0.5rem;
+    }
+}

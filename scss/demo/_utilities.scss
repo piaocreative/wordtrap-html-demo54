@@ -25,15 +25,14 @@ img {
 		height: 100%;
 		object-fit: cover;
 		object-position: center;
-
-		&.img-pos-left {
-			object-position: left;
-		}
-
-		&.img-pos-right {
-			object-position: right;
-		}
 	}
+}
+
+.bg-cover {
+	background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -44,23 +43,6 @@ img {
 	padding-top: $section-spacer;
 	padding-bottom: $section-spacer;
 }
-
-.section-padding-top {
-	padding-top: $section-spacer;
-}
-
-.section-padding-bottom {
-	padding-bottom: $section-spacer;
-}
-
-.section-margin-top {
-	margin-top: $section-spacer;
-}
-
-.section-margin-bottom {
-	margin-bottom: $section-spacer;
-}
-
 
 
 	  
